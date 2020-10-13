@@ -1,0 +1,398 @@
+/*
+  Theme Name: Name - MUNCAK HOMEPAGE
+  Author: sagorhossain020@gmail.com
+*/
+
+/* CSS Index
+-----------------------------------
+1. Theme default css
+2. header
+3. slider
+4. about-area
+5. features
+*/
+
+
+
+/* 1. Theme default css */
+ body {
+	font-family: 'Lato', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}
+.img {
+	max-width: 100%;
+	transition: all 0.3s ease-out 0s;
+}
+.f-left {
+	float: left
+}
+.f-right {
+	float: right
+}
+.text-center{
+	text-align: center;
+}
+.ml-25{
+	margin-left: 25px;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+li {
+	list-style: none;
+}
+
+.fix {
+	overflow: hidden
+}
+.bg{
+	background: #000000;
+}
+.row{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+/*Default css end*/
+
+/***************************************
+
+	Header Section Css start
+
+***************************************/
+.header-section{
+	width: 100%;
+	background: url(..//images/header/headerbg.png) center top no-repeat;
+	background-size: cover;
+	padding: 40px 0px 170px;
+}
+.header-section nav .form-inline a{
+	font-style: 18px;
+	color: #ffffff;
+	text-decoration: none;
+	margin: 0px 17px;
+}
+.header-section .form-inline .btn-info{
+	padding: 5px 25px;
+	color: #14215e;
+	background: #ffffff;
+}
+.header-section img{
+	width: 100%;
+}
+.header-section .form-inline .btn-info:hover{
+	color: #ffffff;
+	background: transparent;
+}
+.header-section .banner-inner{
+	width: 100%;
+	padding: 0px 70px;
+
+}
+.header-section .banner-inner h1{
+	color: #1c2056;
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 60px;
+	padding-top: 130px;
+}
+.header-section .banner-inner p{
+	font-size: 15px;
+	color: #1c2056;
+	font-weight: 400;
+	line-height: 35px;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.header-section .banner-inner .btn-info {
+	padding: 15px 42px;
+	border-radius: 30px;
+	background: #2870db;
+	box-shadow: 0px 10px 10px 3px #ccc;
+	transition: 1s;
+}
+.header-section .banner-inner .btn-info:hover {
+	border: 1px solid #2870db;
+	background: transparent;
+	color: #1c2056;
+}
+
+/***************************************
+
+	Header Section Css end
+
+***************************************/
+.envision-section{
+	width: 100%;
+	background: url(..//images/body/bodybg.png) center top no-repeat;
+	background-size: cover;
+	padding-bottom: 102px 0px;
+}
+.envision-section .title{
+	text-align: center;
+	width: 100%;
+}
+.envision-section .title h2{
+	font-size: 36px;
+	color: #263238;
+	line-height: 46px;
+	font-weight: 700;
+	margin: 35px 0px 50px;
+}
+.envision-section .card-section{
+	width: 100%;
+	margin-top: 102px;
+}
+.envision-section .card-section .card {
+    margin-top: 45px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 20px 20px 5px #e0e9f3;
+}
+.envision-section .card-section .card-body {
+    padding: 50px 50px 60px;
+}
+.envision-section .card-section .card-title {
+    font-weight: 700;
+	margin-bottom: 30px;
+	font-size: 24px;
+	color: #263238;
+}
+.envision-section .card-section .card-text{
+    font-size: 15px;
+    line-height: 33px;
+    color: #546e7a;
+}
+.envision-section .btn-b .btn-info {
+    padding: 15px 42px;
+    border-radius: 30px;
+    background: #2870db;
+    box-shadow: 0px 10px 10px 3px #ccc;
+    transition: 1s;
+    top: 45%;
+    position: absolute;
+    left: 25%;
+}
+.envision-section .btn-b .btn-info:hover{
+	color: #000;
+	background: transparent;
+}
+.envision-section .counter-section {
+	width: 100%;
+    padding-bottom: 100px;
+}
+.envision-section .counter-section .title{
+	font-size: 36px;
+	color: #263238;
+	line-height: 46px;
+	font-weight: 700;
+}
+.envision-section .counter-section .count h4{
+	color: #263238;
+	font-size: 18px;
+	font-weight: 400;
+}
+.envision-section .counter-section .count h1{
+	color: #1a56a3;
+	font-size: 37px;
+	font-weight: 700;
+	
+}
+.envision-section .counter-section .count h4{
+	color: #263238;
+	font-size: 18px;
+	font-weight: 400;
+
+}
+/*envison end*/
+.service{
+	width: 100%;
+	background: url(..//images/service/servicebg.png) center top no-repeat;
+	background-size: cover;
+	padding-bottom: 100px;
+}
+.service .title {
+	width: 100%;
+    padding-bottom: 50px;
+}
+.service .title h1{
+	font-size: 36px;
+	color: #263238;
+	line-height: 46px;
+	font-weight: 700;
+	text-align: center;
+}
+.service .card{
+	border: none;
+	box-shadow: 0px 10px 10px 3px #eaf0f5;
+	border-radius: 1.25rem;
+
+}
+.service .card-body h3{
+	font-size: 22px;
+	font-weight: 700;
+	color: #263238;
+	line-height: 32px;
+	padding-top: 10px;
+}
+.service .card-body p{
+	font-size: 16px;
+	font-weight: 400;
+	color: #546e7a;
+	line-height: 28px;
+	padding: 15px 0px;
+}
+.service .card-body a{
+	font-size: 18px;
+	font-weight: 400;
+	color: #2870db;
+	padding-bottom: 15px;
+}
+/***********************************
+		service part end
+************************************/
+.footer-section{
+	width: 100%;
+	background: url(..//images/footer/footer.png) center top no-repeat;
+	background-size: cover;
+	padding: 80px 0px;
+}
+.footer-section .title h1{
+	font-size: 32px;
+	font-weight: 600;
+	color: #ffffff;
+	padding-bottom: 40px;
+}
+.footer-section form input {
+    width: 40%;
+    height: 50px;
+    margin-bottom: 30px;
+    border: none;
+    padding-left: 20px;
+    border-radius: 7px;
+}
+.footer-section .btn-info {
+	padding: 15px 50px;
+    border-radius: 30px;
+    background: #00aeff;
+	transition: 1s;
+	color: #ffffff;
+}
+.footer-section .btn-info:hover{
+	color: #ffffff;
+	background: transparent;
+	border: 2px solid #00aeff;
+}
+
+/***footer form end****/
+.footer-section .footer-widget {
+    width: 100%;
+    padding: 190px 0px 0px;
+}
+.footer-widget .contact-us h2{
+	font-size: 18px;
+	font-weight: 700;
+	color: #ffffff;
+	text-transform: uppercase;
+	padding-bottom: 40px;
+}
+.footer-widget .contact-us p{
+	font-size: 15px;
+	font-weight: 400;
+	color: #ffffff;
+	line-height: 30px;
+}
+.footer-widget .about-us h2{
+	font-size: 18px;
+	font-weight: 700;
+	color: #ffffff;
+	text-transform: uppercase;
+	padding-bottom: 40px;
+}
+.footer-widget .about-us ul li{
+	list-style-type: none;
+	padding: 0px 0px 15px;
+}
+.footer-widget .about-us ul li a{
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: 400;
+}
+.footer-widget .our-program h2{
+	font-size: 18px;
+	font-weight: 700;
+	color: #ffffff;
+	text-transform: uppercase;
+	padding-bottom: 40px;
+}
+.footer-widget .our-program ul li{
+	list-style-type: none;
+	padding: 0px 0px 15px;
+}
+.footer-widget .our-program ul li a{
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: 400;
+}
+.footer-widget .support h2{
+	font-size: 18px;
+	font-weight: 700;
+	color: #ffffff;
+	text-transform: uppercase;
+	padding-bottom: 40px;
+}
+.footer-widget .support ul li{
+	list-style-type: none;
+	padding: 0px 0px 15px;
+}
+.footer-widget .support ul li a{
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: 400;
+}
+.footer-widget .hiking h2{
+	font-size: 18px;
+	font-weight: 700;
+	color: #ffffff;
+	text-transform: uppercase;
+	padding-bottom: 40px;
+}
+.footer-widget .hiking ul li{
+	list-style-type: none;
+	padding: 0px 0px 15px;
+}
+.footer-widget .hiking ul li a{
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: 400;
+}
+.social-icons {
+    padding-top: 50px;
+}
+.footer-section .social-icons ul li{
+	list-style-type: none;
+	display: inline;
+	padding: 0px 10px;
+}
+.footer-section .social-icons ul li:first-child {
+    padding: 0px;
+}
+.footer-section .social-icons ul li a {
+	background: #ffffff;
+	color: #1955a3;
+	padding: 16px 18px;
+	border-radius: 30px;
+	transition: 1s;
+	border: 1px solid #1955a3;
+}
+.footer-section .social-icons ul li a:hover {
+    background: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
